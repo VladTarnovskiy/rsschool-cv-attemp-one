@@ -1,6 +1,73 @@
-h1 {
-    background-color: aqua;
+* {
+  
 }
 h2 {
-    background-color: blueviolet;
+    display: inline-block;
+    border-bottom: 5px black;
+}
+header {
+    display: flex;
+    background-color: aqua;
+}
+#name li {
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+#name {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav {
+    padding: 5px 0px 5px 0px;
+    background-color: aqua;
+    margin-top: 5px;
+}
+div.lineborder {
+    border-bottom: 2px solid black;
+    background-color: aqua;
+    margin: 5px 0px 5px 0px;
+}
+a {
+    text-decoration: none;
+    color:rgb(rgb(26, 14, 43), green, rgb(8, 8, 10));
+}
+a:hover {
+background-color: white;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+header ul li {
+    list-style-type: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+div.lineborder p {
+    font-size: medium;
+}
+div.lineborder ul li {
+    font-size: medium;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 20px ;
+    font-size: large;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.lineborder p {
+    font-size: large;
+}
+div.lineborder ul li {
+    font-size: large;
 }
