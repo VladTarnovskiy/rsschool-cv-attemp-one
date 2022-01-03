@@ -1,9 +1,10 @@
 * {
-  
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     display: inline-block;
     border-bottom: 5px black;
+    text-transform: uppercase;
 }
 header {
     display: flex;
@@ -46,14 +47,7 @@ a:visited {
 header ul li {
     list-style-type: none;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
     padding: 5px;
-}
-div.lineborder p {
-    font-size: medium;
-}
-div.lineborder ul li {
-    font-size: medium;
 }
 footer ul li {
     display: inline-block;
@@ -70,4 +64,7 @@ div.lineborder p {
 }
 div.lineborder ul li {
     font-size: large;
+}
+header div {
+    margin: 5px 0px 0px 5px;
 }
