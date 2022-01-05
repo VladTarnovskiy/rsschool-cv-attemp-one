@@ -30,6 +30,7 @@ div.lineborder {
     border-bottom: 2px solid black;
     background-color: aqua;
     margin: 5px 0px 5px 0px;
+    padding: 0px 5px 0px 5px;
 }
 a {
     text-decoration: none;
@@ -69,6 +70,6 @@ header div {
     margin: 5px 0px 0px 5px;
 }
 div#full  {
-    width: 1490px;
+    width: 1300px;
     margin: auto;
 }
