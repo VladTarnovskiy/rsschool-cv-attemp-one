@@ -73,3 +73,18 @@ div#full  {
     width: 1300px;
     margin: auto;
 }
+.images img {
+    width: 250px;
+    height: 300px;
+}
+.imgone a img {
+    width: 150px;
+    height: 100px;
+}
+.imgtwo a img {
+    width: 100px;
+    height: 100px;
+}
+.year {
+    text-align: center;
+}
